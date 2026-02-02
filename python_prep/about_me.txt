@@ -1,0 +1,107 @@
+## About me
+    I’m Naveena Aeddula, a software developer with around 4 years of experience
+    building backend applications using Python.
+
+    I started my career at FYERS Securities, where I worked for about three years
+    on large-scale fintech platforms. There, I was involved in developing critical
+    systems like the Demat Account Opening platform, UCC integrations, and user
+    account portals from scratch. I worked extensively with Python, Django, Flask,
+    FastAPI, MySQL, and AWS, and integrated multiple third-party and exchange APIs
+    such as NSE, BSE, MCX, and CDSL. This role gave me strong exposure to end-to-end
+    development, production deployments on AWS, and handling real-world financial
+    data using Pandas and NumPy.
+
+    Currently, I’m working as a Software Developer at Sacumen, where my focus has
+    shifted more towards cybersecurity and integrations. I design and build custom
+    Python connectors and ETL pipelines that integrate threat intelligence feeds and
+    vulnerability data into SIEM and SOAR platforms. I’ve built 20+ production-ready
+    connectors, and automated incident detection workflows. My work here emphasizes 
+    clean architecture, scalable microservices, Dockerized deployments, and reliable
+    data enrichment.
+
+    Overall, my strengths lie in Python backend development, REST APIs, ETL pipelines,
+    AWS, and connector-based integrations. I enjoy working on complex backend problems,
+    writing maintainable code, and collaborating closely with teams. I’m now looking for
+    a role where I can continue building scalable backend systems while taking on more
+    technical ownership.”
+
+
+## Follow up questions
+1. “What are you currently working on?”
+    “Currently, I’m working at Sacumen on building Python-based connectors and ETL
+    pipelines for cybersecurity platforms. My work mainly involves extracting 
+    vulnerability and threat intelligence data from multiple external sources, 
+    normalizing it, enriching it, and pushing it into SIEM and SOAR systems.
+
+    I’ve built 20+ connectors that run in production, focusing on reliability, 
+    scalability, and clean data contracts.
+    The stack I use daily includes Python, FastAPI, Flask, Docker, AWS, 
+    and unit testing.”
+
+
+2. “Can you explain what a connector is?”
+    “A connector is essentially a bridge between two systems. In our case, it’s a 
+    Python service that securely connects external platforms like vulnerability 
+    databases or threat intel feeds with internal SIEM/SOAR tools.
+
+    A typical connector handles:
+        Authentication with external APIs
+        Data extraction (API, scraping, feeds)
+        Data normalization and enrichment
+        Error handling, retries, and logging
+        Sending structured data to downstream systems
+
+    At Sacumen, my connectors are built as modular, reusable Python services, often 
+    containerized using Docker and deployed on AWS.”
+
+
+3. “What kind of ETL pipelines have you built?”
+    “I’ve built multiple ETL pipelines where the extraction layer pulls vulnerability 
+    data from product advisory pages or APIs. The transformation layer cleans and 
+    standardizes the data—like CVE IDs, severity, affected versions—and the load layer 
+    pushes the data into security platforms for reporting and alerting.
+
+    I focus a lot on:
+        Data validation
+        Handling partial or missing fields
+        Idempotency to avoid duplicates
+        Performance optimization for large datasets
+
+    Most pipelines are written in Python, with structured logging and monitoring enabled.”
+
+
+4. “Which Python frameworks are you most comfortable with?”
+    “I’m most comfortable with FastAPI and Flask. I use FastAPI when I need high 
+    performance, async support, and clear API contracts, especially for microservices. 
+    Flask I’ve used extensively for simpler services and integrations.
+
+    In my previous role at FYERS, I also worked with Django for form-based and
+     data-heavy applications. Across all frameworks, I focus on clean architecture, 
+     separation of concerns, and testability.”
+
+
+5. “Can you talk about your AWS experience?”
+    “I’ve worked hands-on with AWS in both my roles. I’ve deployed applications on EC2, 
+    built Lambda functions for lightweight services, used S3 for storage, and CloudWatch 
+    for monitoring and logs.
+
+    I’m comfortable with:
+        EC2-based deployments using Gunicorn and WSGI/ASGI
+        Dockerized services
+        Configuring load balancers and endpoints
+        Debugging production issues using logs and metrics
+    
+    I understand AWS from a developer’s perspective rather than just theoretical usage.”
+
+
+6. “What kind of challenges have you faced?”
+    “One common challenge I’ve faced is inconsistent or unreliable external data from 
+    third-party APIs or advisory sources. To handle this, I implemented robust validation, 
+    fallback logic, retries, and alerting so failures don’t break the pipeline.
+
+
+7. "Why are you looking for a change?"
+    I was working on Akamai project as a contractor through Sacumen. Recently, 
+    that engagement concluded due to business changes, and Sacumen no longer supports 
+    that client. I’m now exploring new opportunities where I can continue contributing 
+    as a Python backend developer and take on long-term technical ownership.
