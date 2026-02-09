@@ -6,4 +6,8 @@ Decorator to time a function
 Linked List
     1. Singly LL (creating, adding data, deleting and traversal)
     2. reversing a LL
-    
+Two Sum
+
+
+
+Context managers(need more practice)
