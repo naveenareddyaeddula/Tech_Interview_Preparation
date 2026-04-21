@@ -2,7 +2,7 @@ Strings:
 1. reverse a string/ words in a string/ sentence and words both
 2. Find the first non-repeating character
 3. Check if two strings are anagrams
-4. String compression (aaabbc → a3b2c1)
+4. Group Anagrams
 5. Find the longest substring without repeating characters
 6. Validate parentheses ({[()]})
 
@@ -21,7 +21,6 @@ Dictionary / Hashing:
 3. Two Sum
 4. Find common keys between two dictionaries
 5. Sort dictionary by values
-6. Group Anagrams
 
 Linked Lists:
 1. Create LL
@@ -40,6 +39,7 @@ Python-Specific Coding:
 
 
 To learn:
+Sort dictionary by values
 Multithreading vs multiprocessing (code example)
 
 what is dict? and how it is implemented internally 

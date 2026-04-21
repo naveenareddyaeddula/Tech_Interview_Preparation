@@ -31,7 +31,7 @@
 2. **What are decorators? Write a simple decorator example.**
    
    **Answer:**
-   Decorators are functions that take another function/class as input and extend its behavior without permanently modifying it. They use the @ syntax.
+   Decorators are functions that take another function/class as an input and extend its behavior without permanently modifying it. They use the @ syntax.
    
    ```python
    def my_decorator(func):
