@@ -22,3 +22,17 @@ def sort_by_values(d1):
     return dict(sorted(d1.items(), key=lambda item:item[1]))
 d = {"a": 10, "b": 2, "c": 3}
 print(sort_by_values(d))
+
+def compress_str(s):
+    compressed = []
+    count = 1
+    for i in range(1, len(s)):
+        if s[i] == s[i-1]:
+            count += 1
+        else:
+            compressed.append(s[i - 1] + str(count))
+            count = 1
+    compressed.append(s[-1] + str(count))
+    res = ''.join(compressed)
+    return res
+print(compress_str('aabbbcdddd'))
